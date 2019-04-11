@@ -7,7 +7,7 @@ A collection of yasnippets for use in Emacs' ESS mode.
 The snippets contain commands for use with the R language. 
 
 
-* Useage
+* Usage
 I write snippets that have the same name as the command I'm building a snippet
 template for.  I use the snippets together with company mode's company-yas
 backend to rapidly insert functions into my code.  If you're using company's ESS
