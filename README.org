@@ -1,0 +1,18 @@
+# README     -*- mode: org; fill-column: 80; eval: (elisp-org-hook); eval: (auto-fill-mode t) -*-
+
+* Overview
+
+A collection of yasnippets for use in Emacs' ESS mode.  
+
+The snippets contain commands for use with the R language. 
+
+
+* Useage
+I write snippets that have the same name as the command I'm building a snippet
+template for.  I use the snippets together with company mode's company-yas
+backend to rapidly insert functions into my code.  If you're using company's ESS
+backend with the company-yas backend, you can distinguish the command from the
+snippet by the presence of additional text shown in the snippet.  This
+information is each snippet's 'key' attribute in the snippet file. 
+
+
