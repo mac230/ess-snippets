@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rnorm
+# key: rnorm
+# Contributor: Mahlon Collins
+# Insert the rnorm function for the R language
+# --
+rnorm(${1:n}, mean = ${2:mean}, sd = ${3:sd})$0

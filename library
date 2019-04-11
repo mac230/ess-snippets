@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: library
+# key: library
+# contributor: Mahlon Collins
+# load a library in R
+# --
+library($0)

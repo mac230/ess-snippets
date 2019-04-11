@@ -1,0 +1,5 @@
+# name: mfrow
+# key: mfrow - set the number of plots per device
+# type: command
+# --
+(mfrow-ess)

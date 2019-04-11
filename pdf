@@ -1,0 +1,4 @@
+# key: pdf
+# name: pdf - make a pdf of plot
+# --
+pdf(file = "${1:name}.pdf", height = ${2:7}, width = ${3:7}${4:, bg = ${5:"transparent"}})$0

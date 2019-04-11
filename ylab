@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ylab - insert y axis label
+# key: ylab
+# --
+ylab = "$1"$0

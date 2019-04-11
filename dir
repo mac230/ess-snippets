@@ -1,0 +1,5 @@
+# key: dir
+# name: dir - list files in a dir
+# type: snippet
+# --
+${1:object} <- dir(path = "${2:`(read-directory-name "dir: " "~/Desktop/data/")`}", pattern = "${3:regexp}", full.names = ${4:T}, recursive = ${5:F})

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: sequential_hcl - sequential color palette
+# key: sequential
+# contributor: Mahlon Collins
+# type: snippet
+# --
+sequential_hcl(n = $1,
+               h = $2,
+               c = ${3:c(10, 90)},
+               l = ${4:c(90, 70)},
+               alpha = 1)
+$0               

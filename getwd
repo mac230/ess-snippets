@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: getwd 
+# key: getwd
+# Contributor: Mahlon Collins
+# Get the current working directory in an R session
+# --
+getwd()`(call-interactively 'no-list-ess-eval-line)`

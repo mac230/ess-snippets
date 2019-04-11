@@ -1,0 +1,4 @@
+# key: read.FCS
+# name: read.FCS - read a single .FCS file
+# --
+read.FCS(filename = "$1", min.limit = ${2:1}, alter.names = T)$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: runif - uniform distribution
+# key: runif
+# --
+runif(n = $1, min = $2, max = $3)$0

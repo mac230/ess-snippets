@@ -1,0 +1,4 @@
+# key: xyplot
+# name: xyplot - flowViz 2D scatter
+# --
+xyplot(${1:\`SSC.A\`} ~ ${2:\`FSC.A\`}, data = ${3:fl}, ${4:filter = ${5:myfilt,}} smooth = ${6:F})$0

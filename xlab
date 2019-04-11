@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xlab - insert x axis label
+# key: xlab
+# --
+xlab = "$1", 

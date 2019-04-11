@@ -1,0 +1,10 @@
+# name: diverge_hcl
+# key: diverge_hcl - Diverging colors
+# contributor: Mahlon Collins
+# type: snippet
+# --
+diverge_hcl(n = $1,    
+            h = ${2:c(0, 100)},    
+            c = ${3:c(0, 100)},    
+            l = ${4:c(0,100)},    
+            alpha = 1)

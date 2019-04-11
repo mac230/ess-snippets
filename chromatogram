@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: chromatogram
+# key: chromatogram
+# --
+chromatogram(obj = ${5}, trim5 = ${4}, trim3 = ${3}, showcalls = "primary", width = ${2}, height = ${1}, showtrim = T$0)

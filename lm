@@ -1,0 +1,4 @@
+# key: lm
+# name: lm - fit y ~ x model
+# --
+${1:model} <- lm(${2:y} ~ ${3:x}${4:, data = ${5:object}})$0

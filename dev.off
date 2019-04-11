@@ -1,0 +1,5 @@
+# key: dev.off
+# name: dev.off - turn off dev
+# type: command
+# --
+(insert "dev.off()")

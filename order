@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: order - order a vector
+# key: order
+# --
+order(x = ${1:vector}, decreasing = ${2:$$(yas-choose-value '("T" "F"))})$0

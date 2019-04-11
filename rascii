@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: rascii - R w/ ascii output
+# key: rascii
+# contributor: Mahlon Collins
+# type: snippet
+# --
+#+BEGIN_SRC R :results output raw
+library(ascii)
+options(asciiType = "org")
+$0
+
+#+END_SRC

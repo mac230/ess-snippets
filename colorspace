@@ -1,0 +1,6 @@
+# key: colorspace
+# name: colorspace - load colorspace package
+# type: command
+# --
+(insert "library(colorspace)")
+(ess-eval-line)

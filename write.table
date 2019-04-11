@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: write.table - write a table to a file
+# key: write.table
+# --
+write.table(x = ${1:data}, file = "${2:file_name}.txt", append = ${3:T/F}, sep = ",", quote = F, row.names = F)$0

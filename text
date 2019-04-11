@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: text - insert text in a plot
+# key: text
+# --
+text(x = ${1:x}, y = ${2:y}, labels = ${3:labels}, cex = ${4:1}${5:, col = ${6:col}})

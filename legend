@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: legend - add a legend
+# key: legend
+# --
+legend(x = ${1:position}, y = ${2:position}, legend = c(${3:text}), ${4:lty = ${5:n},} ${6:lwd = ${7:n},} col = c(${8:cols}), ${9:pch = ${10:symbols},} bty = "${11:$$(yas-choose-value '("n" "o"))}"${12:, bg = ${13:"white"}})$0

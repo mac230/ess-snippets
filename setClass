@@ -1,0 +1,4 @@
+# key: setClass
+# name: setClass
+# --
+setClass(Class = "$1", slots = $2, contains = $0)

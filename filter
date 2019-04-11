@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: filter - filter a flowframe/set
+# key: filter
+# --
+${1:object} <- filter(${2:flowframe/set}, ${3:filter})$0

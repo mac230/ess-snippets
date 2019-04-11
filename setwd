@@ -1,0 +1,10 @@
+# key: setwd
+# name: setwd - use setwd w/ company
+# type: command
+# --
+(let ((company-backends '(company-files)))
+(company-mode)
+(insert "setwd(\"~/Desktop/\")")
+(backward-char 2)
+(company-try-hard))
+

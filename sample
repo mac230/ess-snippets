@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sample - take a sample
+# key: sample
+# --
+sample(x = ${1:data}, size = ${2:n}, replace = ${3:F})$0

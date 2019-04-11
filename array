@@ -1,0 +1,8 @@
+# key: array - create a new array/matrix
+# name: array
+# contributor: Mahlon Collins
+# type: snippet
+# --
+array(data = ${1:data},
+      dim = c(${2:rows}, ${3:columns}),
+      dimnames = ${4:NULL})

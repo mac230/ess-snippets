@@ -1,0 +1,4 @@
+# key: rainbow_hcl - Create colors from 0-360
+# name: rainbow_hcl 
+# --
+${1:object} = rainbow_hcl(n = $2, start = ${3:0-360}, end = ${4:0-360}, c = ${5:0-100}, l = ${6:0-100}, alpha = ${7:0=transparent})$0
